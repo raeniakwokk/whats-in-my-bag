@@ -22,6 +22,8 @@ h3{
     text-align: center;
     font-size: 12px;
     font-weight: 400;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 h4{
     text-align: left;
@@ -58,12 +60,11 @@ a{
     color: #1d1d1e;
     text-decoration: none;
 }
-.receipt_link:hover{
+a:hover{
     color: #b4baed;
 }
-.a-button:hover{
-    color:white; 
-    cursor:none;
+.a-button{
+    padding-bottom: 30px;
 }
 .button1 {
     font-family: 'Roboto Mono', monospace;
@@ -109,7 +110,13 @@ hr{
     font-size: 30px;
     color: #b4baed;
      position: absolute;
-     right: 520px;
+     right: 500px;
+}
+.outside_receipt3{
+    font-size: 20px;
+    color: #b4baed;
+     position: absolute;
+     left: 540px;
 }
 .center_image{
     display: block;
