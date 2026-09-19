@@ -63,7 +63,7 @@ a{
 }
 .a-button:hover{
     color:white; 
-    transition-duration: 0.4s;
+    cursor:none;
 }
 .button1 {
     font-family: 'Roboto Mono', monospace;
@@ -73,10 +73,10 @@ a{
     justify-content: center;
     margin-bottom: 30px;
     margin-top: 30px;
-    transition-duration: 0.4s;
 }
 .button1:hover {
     background-color: #414143;
+    cursor: none;
 }
 .main_receipt{
     margin-top: 30px;
@@ -143,4 +143,20 @@ hr{
 }
 #live-date{
     text-transform: lowercase;
+}
+.dropdown {
+    position: relative;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    transform: translateX(-50%);
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover{
+    color: #b4baed;
+    cursor: none;
 }
